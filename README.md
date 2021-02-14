@@ -32,7 +32,8 @@
     또한 저희는 특별한 전처리 방법을 사용하였는데, 바로 '인간 전처리기'입니다.
     우리 팀에서 직접 내용을 하나하나 열어서 스팸이나 이상한 내용은 거르고, 맞춤법을 직접 검사하여 인풋으로 사용했습니다.
     이것이 모델의 품질을 높인 하나의 전략이었습니다.
-    
+![전처리](https://user-images.githubusercontent.com/50725139/107874139-d20ed980-6efa-11eb-8374-3ef194ebaecb.jpeg)
+
 ## 모델 훈련 전략
     저희는 2번 데이터르 넣어주었는데, 
     처음은 조금 약하게 전처리한 4mb의 데이터, 그리고 강하게 전처리한 1mb의 데이터르 활용했습니다.
@@ -43,3 +44,13 @@
     로컬 미니멈에 빠지지 않도록 초반에는 높은 learning rate를 유지하다가,
     글로벌 미니멈에 근접할 수록 learning rate를 낮춰가는 학습법입니다.
     이를 통해 엄청나게 loss를 감소하는 동시에 global minimun으로 모델을 이끌 수 있었습니다.
+![훈련전략1](https://user-images.githubusercontent.com/50725139/107874143-d6d38d80-6efa-11eb-9f9a-f4a56c4dc27e.jpeg)
+![learning rate](https://user-images.githubusercontent.com/50725139/107874145-d89d5100-6efa-11eb-9a6c-a3a21394148f.jpeg)
+
+## 생성한 텍스트
+    우리의 gpt모델이 생성한 글입니다.
+![generated text](https://user-images.githubusercontent.com/50725139/107874147-dcc96e80-6efa-11eb-8deb-a3651d860621.jpeg)
+![글 내용](https://user-images.githubusercontent.com/50725139/107874158-eeab1180-6efa-11eb-9856-bb913252f728.jpeg)
+
+## 소감
+    
